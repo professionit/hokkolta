@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #000E24;
+            text-align: center;
+            margin: 0;
+        }
+        .container {
+            max-width: 600px;
+        }
+        h1 {
+            font-size: 2.5em;
+            font-weight: bold;
+          color: #F1F1F8;
+        }
+        p {
+            font-size: 1.2em;
+            color: #F1F1F8;
+        }
+        .btn {
+            background-color: black;
+            color: white;
+            padding: 10px 20px;
+            font-size: 1em;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .btn:hover {
+            background-color: #333;
+        }
+        .link {
+            display: block;
+            margin-top: 15px;
+            color: #F1F1F8;
+            text-decoration: none;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>Under Constratoin</p>
+        <h1>COMING SOON <br>BRAND NEW </h1>
+        <p>Big Surprises are coming to our website! We're about to launch a Facility and can't wait to share it with you.</p>
+        <button class="btn" onclick="notifyMe()">📩 Notify me</button>
+        <a href="https://www.professionit.com" class="link">More about us</a>
+    </div>
+
+    <script>
+        function notifyMe() {
+            window.location.href = "mailto:profesitech@gmail.com?subject=Notify%20Me&body=I%20would%20like%20to%20be%20notified%20when%20the%20website%20launches.";
+        }
+    </script>
+</body>
+</html>
